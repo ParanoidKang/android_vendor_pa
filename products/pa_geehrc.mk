@@ -14,7 +14,7 @@
 
 # Check for target product
 
-ifeq (pa_e975,$(TARGET_PRODUCT))
+ifeq (pa_geehrc,$(TARGET_PRODUCT))
 
 # Define PA bootanimation size
 PARANOID_BOOTANIMATION_NAME := XHDPI
@@ -32,13 +32,14 @@ $(call inherit-product, vendor/pa/configs/telephony.mk)
 include vendor/pa/main.mk
 
 # Inherit device configuration
-$(call inherit-product, device/lge/e975/e975.mk)
+$(call inherit-product, device/lge/geehrc/geehrc.mk)
 
 # Override AOSP build properties
-PRODUCT_NAME := pa_e975
+PRODUCT_NAME := pa_geehrc
+PRODUCT_DEVICE := geehrc
 PRODUCT_BRAND := lge
-PRODUCT_MODEL := LG-E975
+PRODUCT_MODEL := LG Optimus G
 PRODUCT_MANUFACTURER := LGE
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=geehrc_open_eu TARGET_DEVICE=e975 BUILD_FINGERPRINT=lge/geehrc_open_eu/geehrc:4.1.2/JZO54K/E97510b.1360741472:user/release-keys PRIVATE_BUILD_DESC="geehrc_open_eu-user 4.1.2 JZO54K E97510b.1360741472 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=geehrc_open_eu TARGET_DEVICE=geehrc BUILD_FINGERPRINT=lge/geehrc_open_eu/geehrc:4.1.2/JZO54K/E97510b.1360741472:user/release-keys PRIVATE_BUILD_DESC="geehrc_open_eu-user 4.1.2 JZO54K E97510b.1360741472 release-keys"
 
 endif
