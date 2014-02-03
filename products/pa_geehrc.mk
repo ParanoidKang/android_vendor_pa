@@ -38,7 +38,7 @@ $(call inherit-product, device/lge/geehrc/geehrc.mk)
 PRODUCT_NAME := pa_geehrc
 PRODUCT_DEVICE := geehrc
 PRODUCT_BRAND := lge
-PRODUCT_MODEL := LG Optimus G
+PRODUCT_MODEL := Optimus G
 PRODUCT_MANUFACTURER := LGE
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=geehrc_open_eu TARGET_DEVICE=geehrc BUILD_FINGERPRINT=lge/geehrc_open_eu/geehrc:4.1.2/JZO54K/E97510b.1360741472:user/release-keys PRIVATE_BUILD_DESC="geehrc_open_eu-user 4.1.2 JZO54K E97510b.1360741472 release-keys"
 
