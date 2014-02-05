@@ -34,6 +34,10 @@ PRODUCT_PACKAGES += \
 #        ParanoidPreferences
 #endif
 
+# MoKee PhoneLoc Database
+PRODUCT_COPY_FILES +=  \
+    vendor/pa/prebuilt/etc/phoneloc.dat:system/etc/phoneloc.dat
+
 # Include ParanoidOTA
 ifneq ($(NO_OTA_BUILD),true)
     PRODUCT_PACKAGES += \
