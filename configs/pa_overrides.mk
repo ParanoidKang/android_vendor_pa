@@ -19,6 +19,7 @@ PRODUCT_PACKAGES += \
     Lightbulb \
     DSPManager \
     libcyanogen-dsp \
+    Trebuchet \
     HALO
 
 # Source or prebuilt PA-prefs logic
