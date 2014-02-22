@@ -22,6 +22,11 @@ PRODUCT_PACKAGES += \
     Trebuchet \
     HALO
 
+# Screen Recorder
+PRODUCT_PACKAGES += \
+    ScreenRecorder \
+    libscreenrecorder
+
 # Source or prebuilt PA-prefs logic
 #ifneq ($(PREFS_FROM_SOURCE),true)
 #    PRODUCT_COPY_FILES += \
