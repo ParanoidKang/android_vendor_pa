@@ -42,24 +42,6 @@ endif
 ifeq (pa_grouper,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_grouper.mk
 endif
-ifeq (pa_jflteatt,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_jflteatt.mk
-endif
-ifeq (pa_jfltecan,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_jfltecan.mk
-endif
-ifeq (pa_jfltetmo,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_jfltetmo.mk
-endif
-ifeq (pa_hercules,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_hercules.mk
-endif
-ifeq (pa_i605,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_i605.mk
-endif
-ifeq (pa_i9300,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_i9300.mk
-endif
 ifeq (pa_jflte,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_jflte.mk
 endif
