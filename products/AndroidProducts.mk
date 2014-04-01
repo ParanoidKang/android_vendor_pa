@@ -36,6 +36,9 @@ endif
 ifeq (pa_dlx,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_dlx.mk
 endif
+ifeq (pa_enrc2b,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_enrc2b.mk
+endif
 ifeq (pa_evita,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_evita.mk
 endif
@@ -65,6 +68,9 @@ ifeq (pa_hlte,$(TARGET_PRODUCT))
 endif
 ifeq (pa_i605,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_i605.mk
+endif
+ifeq (pa_i9100,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_i9100.mk
 endif
 ifeq (pa_i9300,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_i9300.mk
