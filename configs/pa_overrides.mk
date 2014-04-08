@@ -22,8 +22,9 @@ PRODUCT_PACKAGES += \
     Trebuchet \
     HALO
 
-# Screen Recorder
+# Extra packages
 PRODUCT_PACKAGES += \
+    CellBroadcastReceiver \
     ScreenRecorder \
     libscreenrecorder
 
