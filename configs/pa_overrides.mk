@@ -24,7 +24,10 @@ PRODUCT_PACKAGES += \
 
 # Extra packages
 PRODUCT_PACKAGES += \
-    CellBroadcastReceiver \
+    CellBroadcastReceiver
+
+# Screen Recorder
+PRODUCT_PACKAGES += \
     ScreenRecorder \
     libscreenrecorder
 
