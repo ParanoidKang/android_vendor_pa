@@ -114,6 +114,12 @@ endif
 ifeq (pa_maguro,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_maguro.mk
 endif
+ifeq (pa_m7spr,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_m7spr.mk
+endif
+ifeq (pa_m7vzw,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_m7vzw.mk
+endif
 ifeq (pa_maserati,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_maserati.mk
 endif
