@@ -20,7 +20,6 @@ PRODUCT_PACKAGES += \
     DSPManager \
     libcyanogen-dsp \
     Trebuchet \
-    HALO
 
 # Extra packages
 PRODUCT_PACKAGES += \
