@@ -111,6 +111,9 @@ endif
 ifeq (pa_ls980,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_ls980.mk
 endif
+ifeq (pa_lu6200,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_lu6200.mk
+endif
 ifeq (pa_m4,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_m4.mk
 endif
