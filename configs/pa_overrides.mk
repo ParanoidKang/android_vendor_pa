@@ -21,10 +21,6 @@ PRODUCT_PACKAGES += \
     libcyanogen-dsp \
     Trebuchet \
 
-# Extra packages
-PRODUCT_PACKAGES += \
-    CellBroadcastReceiver
-
 # Screen Recorder
 PRODUCT_PACKAGES += \
     ScreenRecorder \
