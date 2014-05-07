@@ -41,9 +41,6 @@ PRODUCT_COPY_FILES += \
     vendor/$(VENDOR)/prebuilt/etc/init.d/99SuperSUDaemon:system/etc/init.d/99SuperSUDaemon \
     vendor/$(VENDOR)/prebuilt/apk/Superuser.apk:system/app/Superuser.apk
 
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.build.selinux=1
-
 # RemixPA additional apk
 PRODUCT_COPY_FILES += \
     vendor/$(VENDOR)/prebuilt/apk/RootExplorer.apk:system/app/RootExplorer.apk
@@ -53,7 +50,3 @@ PRODUCT_COPY_FILES += \
     vendor/$(VENDOR)/ota/patcher:system/bin/patcher \
     vendor/$(VENDOR)/ota/verifier:system/bin/verifier
 
-# CM Hardware Abstraction Framework
-PRODUCT_PACKAGES += \
-    org.cyanogenmod.hardware \
-    org.cyanogenmod.hardware.xml
