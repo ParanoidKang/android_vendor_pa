@@ -7,9 +7,10 @@ then
    echo "Usage: './mk [Device] {Variable}'"
    echo "   Device - your device name"
    echo "   Variable - functions"
-   echo "      fix   :start build without any cleanning for fix build"
-   echo "      clean :run 'make installclean' before build"
-   echo "      sync  :run 'repo sync' before build"
+   echo "      fix      : start build without any cleanning for fix build"
+   echo "      clean    : run 'mka installclean' before build"
+   echo "      allclean : run 'mka clean' before build"
+   echo "      sync     : run 'repo sync' before build"
    echo " "
    exit 0
 fi
